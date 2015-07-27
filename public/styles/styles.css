@@ -1,0 +1,34 @@
+html, body {
+  font-family: Oswald, sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0; }
+
+p {
+  font-family: sans-serif;
+  line-height: 1.3rem; }
+
+a {
+  color: #58759c;
+  text-decoration: none;
+  margin-right: 50px; }
+
+ul {
+  list-style: none; }
+
+header, footer {
+  width: 100%;
+  background-color: #efefdf;
+  padding: 20px; }
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto; }
+
+.content {
+  background-color: white;
+  padding: 0 50px 50px 50px;
+  width: 94%;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=styles.css.map */

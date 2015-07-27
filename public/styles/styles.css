@@ -1,3 +1,22 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+.clearfix {
+  display: inline-block; }
+
+/* start commented backslash hack \*/
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/* close commented backslash hack */
 html, body {
   font-family: Oswald, sans-serif;
   font-size: 16px;
@@ -30,5 +49,11 @@ header, footer {
   padding: 0 50px 50px 50px;
   width: 94%;
   margin: 0 auto; }
+
+.ship {
+  clear: right;
+  display: inline-block;
+  float: left;
+  margin-right: 50px; }
 
 /*# sourceMappingURL=styles.css.map */

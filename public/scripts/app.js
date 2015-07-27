@@ -11,4 +11,18 @@ $(document).ready(function() {
       });
     }
   });
+
+  $.ajax({
+    url: '/api/spaceships',
+    type: 'GET',
+    dataType: 'json',
+    success: function(data) {
+      data.forEach(function(ship) {
+        console.log(ship);
+        $('.ships').append('<article class="ship"></article>');
+        $('.ship').append('<h3>' + ship.name + '</h3>');
+        $('.ship').append('<img src="' + ship.image + '" />');
+      });
+    }
+  });
 });
